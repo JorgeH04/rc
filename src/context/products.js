@@ -38,7 +38,7 @@ export default function ProductProvider({ children }) {
 
    const initialUrlDos = `https://backadmin.herokuapp.com/nimico`;
 
-  const initialUrlDos = `https://backadmin.herokuapp.com/variaciondiaria`;
+  const initialUrlTres = `https://backadmin.herokuapp.com/variaciondiaria`;
 
 
   //  const initialUrl = `http://localhost:5000/api/post/ventasdiarias`;
