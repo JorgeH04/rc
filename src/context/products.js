@@ -34,15 +34,19 @@ export default function ProductProvider({ children }) {
   const [ded, setDed] = React.useState([]);
 
  
-  //  const initialUrl = `https://stelenapp.herokuapp.com/api/post`;
+   const initialUrl = `https://backadmin.herokuapp.com/api/post/ventasdiarias`;
 
-   const initialUrl = `http://localhost:5000/api/post/ventasdiarias`;
+   const initialUrlDos = `https://backadmin.herokuapp.com/nimico`;
 
- //   const initialUrlDos = `https://stelenapp.herokuapp.com`;
+  const initialUrlDos = `https://backadmin.herokuapp.com/variaciondiaria`;
 
-   const initialUrlDos = `http://localhost:5000/nimico`;
 
-   const initialUrlTres = `http://localhost:5000/variaciondiaria`;
+  //  const initialUrl = `http://localhost:5000/api/post/ventasdiarias`;
+
+
+  //  const initialUrlDos = `http://localhost:5000/nimico`;
+
+  //  const initialUrlTres = `http://localhost:5000/variaciondiaria`;
 
   React.useEffect(() => {
     setLoading(true);
